@@ -195,6 +195,7 @@ html {
   font-weight: 900;
   font-size: clamp(1.563rem, 0.563rem + 4.101vw, 3.188rem);
   color: #e60303;
+  padding-bottom: 5px;
 }
 
 .main__info--subtitle {
@@ -220,13 +221,14 @@ html {
   font-weight: 800;
   font-size: clamp(1.25rem, 0.971rem + 1.143vw, 2rem);
   color: #fff;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
 
 .main__info__item--descr {
   font-weight: 400;
   font-size: clamp(0.875rem, 0.829rem + 0.19vw, 1rem);
   color: #fff;
+  line-height: clamp(1.25rem, 1.134rem + 0.476vw, 1.563rem);
 }
 
 .main__info__item--link {
@@ -240,6 +242,7 @@ html {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  margin-top: 20px;
 }
 
 .main__bkg-mobile {
